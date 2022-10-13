@@ -22,6 +22,7 @@ sentence1 = book_name + " is written by " + author + "."
 
 sentence2 = f"Author, {author}, wrote the book {book_name}."
 
+print(sentence2)
 
 # Step 4 - Integers
 # Now let's practice Integers. Replace the "None" below with the publication date of your book.

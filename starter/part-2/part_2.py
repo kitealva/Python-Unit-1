@@ -2,7 +2,7 @@
 
 # Fill in this list with several authors you are a fan of. At least 7 or 8 should do.
 my_authors = ["bob", "carl", "cow", "mom", "dad", "jose", "braden"]
-
+print(my_authors)
 # Now let's add a new author to the end with the .append() method. Type your code below.
 
 # Code here
@@ -68,13 +68,16 @@ print(my_author_set)
 ### Step 4 - For Loops ###
 
 # Create a for-loop for each of the data-structures above.
-
+for author in my_author_set:
+    print(author)
 # Code here
 # Example:
-
+for book in my_authors:
+    print(book)
 # for book in my_authors:
     # print(book)
-
+for tuple in my_author_tuple:
+    print(tuple)
 # for book in my_authors_tuple:
     # print(book)
 
