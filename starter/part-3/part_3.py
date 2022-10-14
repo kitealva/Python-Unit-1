@@ -10,7 +10,9 @@ my_book = {
 
 # Code below
 def book_stuff(book):
-    return f"{book['title']} is made by {book['author']} in {book['year']} and has a rating of {book['rating']} with a total page length of {book['pages']} pages."
+    book_string = f"{book['title']} is made by {book['author']} in {book['year']} and has a rating of {book['rating']} with a total page length of {book['pages']} pages."
+    
+    return book_string
 
 print(book_stuff(my_book))
 

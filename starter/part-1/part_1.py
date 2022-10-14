@@ -57,4 +57,12 @@ print(publication_year)
 print(book_price)
 print(is_awesome)
 
+print(type(book_name))
+print(type(author))
+print(type(sentence1))
+print(type(sentence2))
+print(type(publication_year))
+print(type(book_price))
+print(type(is_awesome))
+
 print(f'{author} made a book called {book_name} that was made in {publication_year} and it costs {book_price}')

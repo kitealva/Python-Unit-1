@@ -68,19 +68,20 @@ print(my_author_set)
 ### Step 4 - For Loops ###
 
 # Create a for-loop for each of the data-structures above.
-for author in my_author_set:
-    print(author)
 # Code here
 # Example:
-for book in my_authors:
-    print(book)
 # for book in my_authors:
     # print(book)
-for tuple in my_author_tuple:
-    print(tuple)
 # for book in my_authors_tuple:
     # print(book)
 
 # for book in my_authors_set:
     # print(book)
 
+
+for author in my_author_set:
+    print(author)
+for book in my_authors:
+    print(book)
+for tuple in my_author_tuple:
+    print(tuple)
